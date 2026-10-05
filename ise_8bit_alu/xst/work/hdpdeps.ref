@@ -1,0 +1,117 @@
+V3 67
+FL /home/ise/xilinx-share/ise_8bit_alu/src/adder_4bit.vhd 2026/10/04.14:51:51 P.20131013
+EN work/adder_4bit 1791125598 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/adder_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder_4bit/structural 1791125599 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/adder_4bit.vhd \
+      EN work/adder_4bit 1791125598 CP work/full_adder
+FL /home/ise/xilinx-share/ise_8bit_alu/src/adder_8bit.vhd 2026/10/04.14:51:51 P.20131013
+EN work/adder_8bit 1791125604 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/adder_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder_8bit/structural 1791125605 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/adder_8bit.vhd \
+      EN work/adder_8bit 1791125604 CP work/adder_4bit
+FL /home/ise/xilinx-share/ise_8bit_alu/src/alu_8bit.vhd 2026/10/04.14:51:51 P.20131013
+EN work/alu_8bit 1791125610 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/alu_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/alu_8bit/structural 1791125611 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/alu_8bit.vhd EN work/alu_8bit 1791125610 \
+      CP work/adder_8bit CP work/and_gate CP work/or_gate CP work/xor_gate \
+      CP work/not_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/alu_system.vhd 2026/10/04.14:51:51 P.20131013
+EN work/alu_system 1791125612 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/alu_system.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/alu_system/structural 1791125613 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/alu_system.vhd \
+      EN work/alu_system 1791125612 CP work/reg_8bit CP work/alu_8bit
+FL /home/ise/xilinx-share/ise_8bit_alu/src/and_gate.vhd 2026/10/04.14:51:51 P.20131013
+EN work/and_gate 1791125586 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/structural 1791125587 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/and_gate.vhd EN work/and_gate 1791125586 \
+      CP work/nand_gate CP work/not_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/d_latch.vhd 2026/10/04.14:51:51 P.20131013
+EN work/d_latch 1791125596 FL /home/ise/xilinx-share/ise_8bit_alu/src/d_latch.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/d_latch/structural 1791125597 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/d_latch.vhd EN work/d_latch 1791125596 \
+      CP work/not_gate CP work/nand_gate CP work/sr_latch
+FL /home/ise/xilinx-share/ise_8bit_alu/src/full_adder.vhd 2026/10/04.14:51:51 P.20131013
+EN work/full_adder 1791125594 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/structural 1791125595 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/full_adder.vhd \
+      EN work/full_adder 1791125594 CP work/half_adder CP work/or_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/half_adder.vhd 2026/10/04.14:51:51 P.20131013
+EN work/half_adder 1791125588 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/structural 1791125589 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/half_adder.vhd \
+      EN work/half_adder 1791125588 CP work/xor_gate CP work/and_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/ms_flipflop.vhd 2026/10/04.14:51:51 P.20131013
+EN work/ms_flipflop 1791125602 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/ms_flipflop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ms_flipflop/structural 1791125603 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/ms_flipflop.vhd \
+      EN work/ms_flipflop 1791125602 CP work/not_gate CP work/d_latch
+FL /home/ise/xilinx-share/ise_8bit_alu/src/mux2.vhd 2026/10/04.14:51:51 P.20131013
+EN work/mux2 1791125600 FL /home/ise/xilinx-share/ise_8bit_alu/src/mux2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2/structural 1791125601 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/mux2.vhd EN work/mux2 1791125600 \
+      CP work/not_gate CP work/nand_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/nand_gate.vhd 2026/10/04.14:51:51 P.20131013
+EN work/nand_gate 1791125580 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/nand_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nand_gate/dataflow 1791125581 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/nand_gate.vhd EN work/nand_gate 1791125580
+FL /home/ise/xilinx-share/ise_8bit_alu/src/not_gate.vhd 2026/10/04.14:51:51 P.20131013
+EN work/not_gate 1791125582 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/structural 1791125583 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/not_gate.vhd EN work/not_gate 1791125582 \
+      CP work/nand_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/or_gate.vhd 2026/10/04.14:51:51 P.20131013
+EN work/or_gate 1791125590 FL /home/ise/xilinx-share/ise_8bit_alu/src/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/structural 1791125591 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/or_gate.vhd EN work/or_gate 1791125590 \
+      CP work/not_gate CP work/nand_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/reg_1bit.vhd 2026/10/04.14:51:51 P.20131013
+EN work/reg_1bit 1791125606 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/reg_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg_1bit/structural 1791125607 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/reg_1bit.vhd EN work/reg_1bit 1791125606 \
+      CP work/mux2 CP work/ms_flipflop
+FL /home/ise/xilinx-share/ise_8bit_alu/src/reg_8bit.vhd 2026/10/04.14:51:51 P.20131013
+EN work/reg_8bit 1791125608 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/reg_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg_8bit/structural 1791125609 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/reg_8bit.vhd EN work/reg_8bit 1791125608 \
+      CP work/reg_1bit
+FL /home/ise/xilinx-share/ise_8bit_alu/src/sr_latch.vhd 2026/10/04.14:51:51 P.20131013
+EN work/sr_latch 1791125592 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/sr_latch.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sr_latch/structural 1791125593 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/sr_latch.vhd EN work/sr_latch 1791125592 \
+      CP work/nand_gate
+FL /home/ise/xilinx-share/ise_8bit_alu/src/xor_gate.vhd 2026/10/04.14:51:51 P.20131013
+EN work/xor_gate 1791125584 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/xor_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_gate/structural 1791125585 \
+      FL /home/ise/xilinx-share/ise_8bit_alu/src/xor_gate.vhd EN work/xor_gate 1791125584 \
+      CP work/nand_gate

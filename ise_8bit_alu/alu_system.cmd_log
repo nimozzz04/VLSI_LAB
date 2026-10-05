@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/xilinx-share/ise_8bit_alu/alu_system.xst" -ofn "/home/ise/xilinx-share/ise_8bit_alu/alu_system.syr" 

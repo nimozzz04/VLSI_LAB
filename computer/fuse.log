@@ -1,0 +1,35 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/xilinx-share/Register_V2/Register/computer/adder_8bit_isim_beh.exe -prj /home/ise/xilinx-share/Register_V2/Register/computer/adder_8bit_beh.prj work.adder_8bit 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/nand_gate.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/not_gate.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/xor_gate.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/half_adder.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/full_adder.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/adder_4bit.vhd" into library work
+Parsing VHDL file "/home/ise/xilinx-share/Register_V2/Register/computer/adder_8bit.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95584 KB
+Fuse CPU Usage: 930 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity adder_4bit [adder_4bit_default]
+Compiling architecture structural of entity adder_8bit
+Time Resolution for simulation is 1ps.
+Compiled 19 VHDL Units
+Built simulation executable /home/ise/xilinx-share/Register_V2/Register/computer/adder_8bit_isim_beh.exe
+Fuse Memory Usage: 104192 KB
+Fuse CPU Usage: 990 ms
+GCC CPU Usage: 280 ms

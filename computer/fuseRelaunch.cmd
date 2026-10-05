@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/xilinx-share/Register_V2/Register/computer/adder_8bit_isim_beh.exe" -prj "/home/ise/xilinx-share/Register_V2/Register/computer/adder_8bit_beh.prj" "work.adder_8bit" 

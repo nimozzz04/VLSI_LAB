@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/xilinx-share/ise_8bit_alu/tb_alu_8bit_isim_beh.exe" -prj "/home/ise/xilinx-share/ise_8bit_alu/tb_alu_8bit_beh.prj" "work.tb_alu_8bit" 
